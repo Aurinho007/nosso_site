@@ -1,0 +1,29 @@
+@font-face{
+    font-family: "moda";
+    src: url("../fonts/static/BodoniModa_18pt/BodoniModa_18pt-ExtraBoldItalic.ttf")
+}
+
+
+body{
+    background-color: #efe6f0;
+}
+.header{
+    background-color: #d7c6e0;
+    height: 5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    color: #040400;
+    font-family: "moda";
+}
+.pic{
+    display: flex;
+    justify-content: center;
+    padding-top: 10em;
+}
+#img-01{
+    width: 20em;
+    border-radius: 20px;
+}
