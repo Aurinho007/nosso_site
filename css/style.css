@@ -23,7 +23,7 @@ body{
 h1{
     color: #040400;
     font-family: "phi";
-    font-size: 40px;
+    font-size: 30px;
 }
 .main{
     display: flex;
@@ -44,6 +44,7 @@ h1{
 .date-container{
     display: flex;
     justify-content:space-around;
+    align-items: center;
 
 }
 .date-pic{
