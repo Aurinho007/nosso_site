@@ -1,34 +1,71 @@
 @font-face{
-    font-family: "moda";
-    src: url("../fonts/static/BodoniModa_18pt/BodoniModa_18pt-ExtraBoldItalic.ttf")
+    font-family: "phi";
+    src: url("../fonts/PatuaOne-Regular.ttf")
 }
 
 *{
     margin: 0
 }
-
-
 body{
-    background-color: #e9d6ec;
+    background-color: #e8cecd96;
+    margin-left: 8vw;
+    margin-right: 8vw;
 }
 .header{
-    background-color: #cb9be5;
-    height: 5em;
+    background-color: #c899f7;
+    height: 8em;
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 2em;
+    margin-bottom: 2em;
 }
 h1{
     color: #040400;
-    font-family: "moda";
+    font-family: "phi";
+    font-size: 40px;
 }
-.pic{
+.main{
     display: flex;
     justify-content: center;
-    padding-top: 10em;
+    flex-direction: column;
 }
-#img-01{
-    width: 20em;
-    border-radius: 20px;
+.container{
+    min-width: 80vw;
+}
+
+.date-num{
+    font-family: "phi";
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.date-container{
+    display: flex;
+    justify-content:space-around;
+
+}
+.date-pic{
+    height: 40vw;
+    border-radius: 30px;
+    border: solid 3px #9896E0;
+    box-shadow: 2px 2px 5px;
+}
+
+.txt-date{
+    text-align: center;
+    font-family: "phi";
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+#divisor{
+    border-bottom: solid 2px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+#date2-pic2{
+    width: 30vw;
 }
