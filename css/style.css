@@ -27,25 +27,35 @@ h1{
 }
 .main{
     display: flex;
-    justify-content: center;
     flex-direction: column;
+    
 }
 .container{
     min-width: 80vw;
+
 }
 
 .date-num{
     font-family: "phi";
-    font-size: 2em;
+    font-size: 6vw;
     text-align: center;
     margin-bottom: 30px;
 }
 
 .date-container{
     display: flex;
-    justify-content:space-around;
     align-items: center;
+    align-items: flex-start;
+    justify-content: space-between;
 
+}
+.container-img{
+    display: flex;
+    flex-direction: column;
+}
+.container-txt{
+    margin-left: 3px;
+    margin-right: 3px;
 }
 .date-pic{
     height: 40vw;
@@ -59,6 +69,7 @@ h1{
     text-align: center;
     font-family: "phi";
     padding-left: 5px;
+    font-size: 4vw;
 }
 
 #divisor{
@@ -66,7 +77,16 @@ h1{
     margin-top: 10px;
     margin-bottom: 40px;
 }
-
+.date-type-1{
+    font-family: "phi";
+    font-size: 3vw;
+    text-align: end;
+}
+.date-type-2{
+    font-family: "phi";
+    font-size: 3vw;
+    text-align:left
+}
 #date2-pic2{
     width: 30vw;
 }
