@@ -91,3 +91,15 @@ h1{
 #date2-pic2{
     width: 30vw;
 }
+
+#namoro{
+    background-color:#c899f7;
+    border-radius: 20px;
+    padding: 20px;
+    margin-bottom: 50px;
+}
+
+#continua-pic{
+    width: 100%;
+    margin-top: -100px;
+}

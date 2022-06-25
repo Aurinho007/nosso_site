@@ -1,0 +1,16 @@
+{
+    "workbench.startupEditor": "newUntitledFile",
+    "workbench.iconTheme": "vscode-icons",
+    "git.suggestSmartCommit": false,
+    "explorer.confirmDragAndDrop": false,
+    "git.confirmSync": false,
+    "explorer.confirmDelete": false,
+    "git.autofetch": true,
+    "terminal.integrated.tabs.enabled": true,
+    "terminal.integrated.fontFamily": "monospace",
+    "editor.fontFamily": "'Fira Code', Consolas, 'Courier New', monospace",
+    "editor.fontLigatures": true,
+    "json.schemas": [
+    
+    ]
+}
