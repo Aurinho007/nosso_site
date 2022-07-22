@@ -1,5 +1,5 @@
 document.getElementById("continua-pic").addEventListener('click', () => {
-    window.navigator.vibrate(500)
+    window.navigator.vibrate(1000)
     document.write("<img src='./images/milhoes2.jpg'  id='continua-pic'/><style> *{margin:0} #continua-pic{width:100%}</style>")
 
 })
